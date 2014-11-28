@@ -1,0 +1,14 @@
+﻿@using umbraco.cms.businesslogic.language
+@model umbDemo.Models.GlobalModel
+<script>
+    var globalInfo = {
+        @for (var i = 0; i < ViewData.ModelMetadata.Properties.Count(); i++)
+        {
+            var data = ViewData.ModelMetadata.Properties.ToList();
+
+            var output = i == (ViewData.ModelMetadata.Properties.Count() - 1) ? string.Format("'{0}': '{1}'", data[i].PropertyName.FirstCharacterToLower(), Html.Display(data[i].PropertyName)) : string.Format("'{0}': '{1}',", data[i].PropertyName.FirstCharacterToLower(), Html.Display(data[i].PropertyName));
+
+            @Html.Raw(output)
+        }
+    };
+</script>  

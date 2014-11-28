@@ -1,0 +1,46 @@
+﻿@using umbDemo.Models
+@inherits UmbracoTemplatePage
+@{
+    Layout = null;
+}<!DOCTYPE html>
+<html class="no-js" lang="da" ng-app="skybrud">
+<head>
+    <!-- id: @Model.Content.Id -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1" id="viewport">
+
+    <title ng-bind="title">Skybrud.dk</title>
+    <base href="/" />
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
+</head>
+<body>
+    <div class="wrap">
+        <div class="navigation">
+            <svg class="border">
+                <line x1="0" y1="100%" x2="0" y2="0" />
+                <line x1="0" y1="0" x2="100%" y2="0" />
+                <line x1="100%" y1="0" x2="100%" y2="100%" />
+                <line x1="100%" y1="100%" x2="0" y2="100%" />
+            </svg>
+            <a ui-sref="home" class="logo">
+                <div class="overlay">
+                </div>
+                <sky-svg>logo</sky-svg>
+            </a>
+            <sky-top-menu class="menu" sky-animation="menu"></sky-top-menu>
+        </div>
+        <div class="sections" ui-view></div>
+    </div>
+
+    <div class="footer">
+        <div class="section">
+        </div>
+    </div>
+
+    @Html.Partial("GlobalInfo", new GlobalModel(Model.Content))
+    <script type="text/javascript" src="scripts/4729sk/scripts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://fast.fonts.net/jsapi/0e212e36-cfbe-49d6-83cd-50275b52e2d0.js"></script>
+</body>
+</html>
