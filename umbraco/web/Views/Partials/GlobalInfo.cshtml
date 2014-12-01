@@ -1,5 +1,6 @@
-﻿@using umbraco.cms.businesslogic.language
-@model umbDemo.Models.GlobalModel
+﻿@using code
+@using umbraco.cms.businesslogic.language
+@model code.models.GlobalModel
 <script>
     var globalInfo = {
         @for (var i = 0; i < ViewData.ModelMetadata.Properties.Count(); i++)

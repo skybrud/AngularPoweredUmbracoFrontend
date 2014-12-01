@@ -214,7 +214,9 @@
     <Content Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="macroScripts\Web.config" />
-    <Content Include="config\UrlRewriting.config" />
+    <Content Include="config\UrlRewriting.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="config\umbracoSettings.config" />
     <Content Include="config\trees.config" />
     <Content Include="config\tinyMceConfig.config" />
@@ -233,6 +235,7 @@
     <Content Include="config\404handlers.config" />
     <Content Include="Views\Partials\GlobalInfo.cshtml" />
     <Content Include="Views\StartView.cshtml" />
+    <Content Include="Views\Empty.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -255,7 +258,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Cod\code.csproj">
+    <ProjectReference Include="..\code\code.csproj">
       <Project>{0f0b478b-2ea4-4e10-8e04-9aab8dbeca80}</Project>
       <Name>code</Name>
     </ProjectReference>

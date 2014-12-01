@@ -1,0 +1,3 @@
+﻿2014-11-29 00:00:23,276 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Home' with Id '0' has been published.
+2014-11-29 00:00:34,649 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Subpage 1' with Id '0' has been published.
+2014-11-29 00:00:42,992 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Subpage 2' with Id '0' has been published.
