@@ -211,6 +211,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ng-views\subpage.html" />
+    <Content Include="ng-views\frontpage.html" />
     <Content Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="macroScripts\Web.config" />
