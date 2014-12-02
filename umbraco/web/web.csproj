@@ -310,6 +310,15 @@
     <Content Include="bin\x86\sqlceme40.dll" />
     <Content Include="bin\x86\sqlceqp40.dll" />
     <Content Include="bin\x86\sqlcese40.dll" />
+    <Content Include="media\1001\media02.jpg" />
+    <Content Include="media\1001\media02_big-thumb.jpg" />
+    <Content Include="media\1001\media02_thumb.jpg" />
+    <Content Include="media\1002\media01.jpg" />
+    <Content Include="media\1002\media01_big-thumb.jpg" />
+    <Content Include="media\1002\media01_thumb.jpg" />
+    <Content Include="media\1003\media03.jpg" />
+    <Content Include="media\1003\media03_big-thumb.jpg" />
+    <Content Include="media\1003\media03_thumb.jpg" />
     <Content Include="ng-views\subpage.html" />
     <Content Include="ng-views\frontpage.html" />
     <Content Include="packages.config" />
@@ -2930,7 +2939,6 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="masterpages\dummy.txt" />
-    <Content Include="media\dummy.txt" />
     <Content Include="usercontrols\dummy.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
