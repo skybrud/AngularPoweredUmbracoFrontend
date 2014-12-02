@@ -31,7 +31,7 @@ angular.module('app', ['ui.router', 'ngAnimate', 'ngSanitize'])
                     var _this = this;
                     /* We assign the api-reponse to the instance of the controller, so it's accessible from the view */
                     _this.pageData = getData.data.data;
-                    $rootScope.pageTitle = 'getData.data.data.name';
+                    $rootScope.pageTitle = getData.data.data.name;
                 }],
                 controllerAs: 'ctrl'
             });

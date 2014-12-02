@@ -27,7 +27,7 @@ angular.module('app',['ngRoute','ngAnimate','ngSanitize'])
                 controller: ['getData','$rootScope', function(getData,$rootScope) {
                     var _this = this;
                     _this.pageData = getData.data.data;
-                    $rootScope.pageTitle = 'getData.data.data.name';
+                    $rootScope.pageTitle = getData.data.data.name;
                 }],
                 controllerAs:'ctrl'
             });
