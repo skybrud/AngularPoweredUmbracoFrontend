@@ -10,12 +10,14 @@ angular.module('app',['ngRoute','ngAnimate','ngSanitize'])
         
         $locationProvider.html5Mode(true);
         $routeProvider
+            /* the otherwise route matches all other routes - since we have defined no other, this means any route */
             .otherwise({
                 resolve:{
                     getData:['$location', '$http', function($location, $http) {
                         return $http({
                             url: '/umbraco/api/contentApi/getData/',
                             params:{
+                                /* When using ngRoute we need $location to read the current path */
                                 url:encodeURIComponent($location.$$path)
                             }
                         });
