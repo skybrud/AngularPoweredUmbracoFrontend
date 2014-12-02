@@ -16,9 +16,10 @@
                     }]
                 },
                 template: '<div ng-include="ctrl.pageData.templateUrl"></div>',
-                controller: ['getData', function(getData) {
+                controller: ['getData','$rootScope', function(getData,$rootScope) {
                     var _this = this;
                     _this.pageData = getData.data.data;
+                    $rootScope.pageTitle = 'getData.data.data.name';
                 }],
                 controllerAs: 'ctrl'
             });
