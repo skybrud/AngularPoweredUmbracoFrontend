@@ -211,8 +211,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\TEMP\ClientDependency\RPJENGAARD-WIN8-41db39a675a5e9da4504fc3a4f1a162d-map.xml" />
-    <Content Include="App_Data\TEMP\ClientDependency\RPJENGAARD-WIN8-f9c91938be3b542daad6dcba7445ec2b-map.xml" />
     <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="App_Plugins\dummy.txt" />
     <Content Include="bin\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
@@ -2794,56 +2792,6 @@
     <Content Include="App_Browsers\Form.browser" />
     <Content Include="App_Browsers\w3cvalidator.browser" />
     <Content Include="App_Data\access.config" />
-    <Content Include="App_Data\NuGetBackup\20141128-234302\CopyLogs\UmbracoBinBackup.log" />
-    <Content Include="App_Data\NuGetBackup\20141128-234309\Web.config" />
-    <Content Include="App_Data\packages\installed\installedPackages.config" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments_o" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.fdt" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.fdx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.fnm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.frq" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.nrm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.prx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tii" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tis" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tvd" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tvf" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tvx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k_2.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_l.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_m.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments_1" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments_t" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.fdt" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.fdx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.fnm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.frq" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.nrm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.prx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.tii" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.tis" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.tvd" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.tvf" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k.tvx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_k_2.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_l.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_l_2.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_m.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_m_2.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_n.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_n_1.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_o.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_o_1.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_p.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_p_1.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_q.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_r.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_r_1.del" />
-    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.RPJENGAARD-WIN8.hash" />
-    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.RPJENGAARD-WIN8.list" />
     <Content Include="App_Data\umbraco.config" />
     <Content Include="bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <Content Include="bin\umbDemo.dll.config" />
@@ -2997,12 +2945,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Code\" />
-    <Folder Include="App_Data\NuGetBackup\20141128-234302\bin\" />
-    <Folder Include="App_Data\NuGetBackup\20141128-234309\CopyLogs\" />
-    <Folder Include="App_Data\packages\created\" />
-    <Folder Include="App_Data\preview\" />
-    <Folder Include="App_Data\TEMP\FileUploads\" />
-    <Folder Include="App_Data\TEMP\Install\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
