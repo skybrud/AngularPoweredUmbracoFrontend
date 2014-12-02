@@ -1,2 +1,5 @@
-﻿<h1>{{pageDate.name}}</h1>
-<div ng-bind-html="pageData.contentBody"></div>
+﻿<h1>{{ctrl.pageData.name}}</h1>
+<div ng-bind-html="ctrl.pageData.contentBody"></div>
+
+<!-- because there is only one image on the frontpage documenttype -->
+<img ng-src="{{ctrl.pageData.contentImages[0].croppedUrl}}"/> 

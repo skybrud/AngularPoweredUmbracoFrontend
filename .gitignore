@@ -3,3 +3,4 @@ umbraco/web/bin/web.dll
 umbraco/web/bin/code.dll
 umbraco/web/App_Data/TEMP/PluginCache/
 umbraco/web/App_Data/Logs/
+umbraco/web/App_Data/cache/

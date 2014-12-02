@@ -21,7 +21,7 @@ namespace code.models
             {
                 Id = a.Id,
                 Name = a.Name,
-                ContentImages = ImageModel.GetImages(a, "contentImages"),
+                ContentImages = ImageModel.GetImages(a, "contentImages", 640, 480),
                 ContentBody = a.GetPropertyValue<string>("contentBody"),
                 AngularTemplateUrl = "/ng-views/frontpage.html",    //could be done from Umbraco
                 Created = a.CreateDate,

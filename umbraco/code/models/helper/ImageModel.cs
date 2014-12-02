@@ -4,6 +4,7 @@ using System.Web;
 using Newtonsoft.Json;
 using Umbraco.Core.Models;
 using Umbraco.Web;
+using Umbraco.Web.Models;
 
 namespace code.models.helper
 {
@@ -35,7 +36,7 @@ namespace code.models.helper
             {
                 Id = image.Id,
                 Url = DomainName + image.Url,
-                CroppedUrl = DomainName + image.GetCropUrl(width, height, preferFocalPoint: true),
+                CroppedUrl = DomainName + image.GetCropUrl(width, height, preferFocalPoint: true, imageCropMode: ImageCropMode.Crop),
                 AltText = image.HasValue("alttext") ? image.GetPropertyValue<string>("alttext") : ""
             };
         }
@@ -52,7 +53,7 @@ namespace code.models.helper
             {
                 Id = m.Id,
                 Url = DomainName + m.Url,
-                CroppedUrl = DomainName + m.GetCropUrl(width, height, preferFocalPoint: true),
+                CroppedUrl = DomainName + m.GetCropUrl(width, height, preferFocalPoint: true, imageCropMode: ImageCropMode.Crop),
                 AltText = m.HasValue("alttext") ? m.GetPropertyValue<string>("alttext") : ""
             }).ToList();
         }
