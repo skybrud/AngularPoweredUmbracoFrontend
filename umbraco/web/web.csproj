@@ -211,16 +211,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\cache\0\8\3\1\0\8\0831085a377d2a945565db55ad2a2169744ab60b.jpg" />
-    <Content Include="App_Data\cache\1\6\e\a\8\d\16ea8d8484eebf210b45fddfaa1372902995bd83.jpg" />
-    <Content Include="App_Data\cache\2\4\f\6\b\c\24f6bcd3f95388c7a13939894f610af9fb8624e9.jpg" />
-    <Content Include="App_Data\cache\2\6\b\a\8\8\26ba88901a860d1745aa21a9978f91b42c4793c8.jpg" />
-    <Content Include="App_Data\cache\2\f\b\e\c\8\2fbec8a377273070dfc1327128d8bad8401efe39.jpg" />
-    <Content Include="App_Data\cache\5\d\0\6\c\6\5d06c6be29bb4579f097acfed0fea83446d9141d.jpg" />
-    <Content Include="App_Data\cache\8\1\1\4\d\1\8114d1208fe52200622003887f2d3aebdf719989.jpg" />
-    <Content Include="App_Data\cache\c\c\9\a\3\9\cc9a399b0f9912bc9ba68994d6aa7725f5307476.jpg" />
-    <Content Include="App_Data\cache\d\e\4\c\d\a\de4cda79d02ef55235f9f4570756b18284b82923.jpg" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt" />
     <Content Include="App_Data\TEMP\ClientDependency\RPJENGAARD-WIN8-41db39a675a5e9da4504fc3a4f1a162d-map.xml" />
     <Content Include="App_Data\TEMP\ClientDependency\RPJENGAARD-WIN8-f9c91938be3b542daad6dcba7445ec2b-map.xml" />
     <Content Include="App_Data\Umbraco.sdf" />
@@ -2804,9 +2794,6 @@
     <Content Include="App_Browsers\Form.browser" />
     <Content Include="App_Browsers\w3cvalidator.browser" />
     <Content Include="App_Data\access.config" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2014-11-28" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2014-11-29" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2014-12-01" />
     <Content Include="App_Data\NuGetBackup\20141128-234302\CopyLogs\UmbracoBinBackup.log" />
     <Content Include="App_Data\NuGetBackup\20141128-234309\Web.config" />
     <Content Include="App_Data\packages\installed\installedPackages.config" />
