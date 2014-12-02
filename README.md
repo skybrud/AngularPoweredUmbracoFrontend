@@ -1,7 +1,9 @@
 24daysinumbracodemo
 ===================
 
-A demosolution showing how to handle Umbraco 7 and a AngularJS frontend
+A demosolution showing how to handle Umbraco 7 and a AngularJS frontend. 
+
+You can also check it out here: http://24days.skybrud.dk/
 
 ### Get it up and running ###
 
