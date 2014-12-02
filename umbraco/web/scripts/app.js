@@ -1,34 +1,28 @@
 ﻿angular.module('app', ['ui.router', 'ngAnimate', 'ngSanitize'])
-    .config([
-        '$locationProvider', '$stateProvider', function($locationProvider, $stateProvider) {
+    .config(['$locationProvider', '$stateProvider', function($locationProvider, $stateProvider) {
 
-            $locationProvider.html5Mode(true);
-            $stateProvider
-                .state('all', {
-                    url: '*path',
-                    resolve: {
-                        getData: [
-                            '$location', '$http', function($location, $http) {
-                                return $http({
-                                    url: '/umbraco/api/contentApi/getData/',
-                                    params: {
-                                        url: encodeURIComponent($location.$$path)
-                                    }
-                                });
+        $locationProvider.html5Mode(true);
+        $stateProvider
+            .state('all', {
+                url: '*path',
+                resolve: {
+                    getData: ['$location', '$http', function($location, $http) {
+                        return $http({
+                            url: '/umbraco/api/contentApi/getData/',
+                            params: {
+                                url: encodeURIComponent($location.$$path)
                             }
-                        ]
-                    },
-                    template: '<div ng-include="ctrl.pageData.templateUrl"></div>',
-                    controller: [
-                        'getData', function(getData) {
-                            var _this = this;
-                            _this.pageData = getData.data.data;
-                        }
-                    ],
-                    controllerAs: 'ctrl'
-                });
-        }
-    ])
+                        });
+                    }]
+                },
+                template: '<div ng-include="ctrl.pageData.templateUrl"></div>',
+                controller: ['getData', function(getData) {
+                    var _this = this;
+                    _this.pageData = getData.data.data;
+                }],
+                controllerAs: 'ctrl'
+            });
+    }])
     .animation('.view', function() {
         return {
             enter: function (element, done) {
@@ -48,6 +42,4 @@
                 });
             }
         }
-
-
-});
+	});
