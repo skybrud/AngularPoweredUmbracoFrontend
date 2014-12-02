@@ -1,3 +1,10 @@
+/**
+ * This does exactly the same as app.js but uses ngRoute instead.
+ * 
+ * You will need to change the <div ui-view> in the startview to
+ * be <div ng-view> as well. 
+ */
+ 
 angular.module('app',['ngRoute','ngAnimate','ngSanitize'])
     .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
         
